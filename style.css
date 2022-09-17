@@ -1,0 +1,123 @@
+*{
+    box-sizing: content-box;
+}
+header{
+    height: 174px;
+padding-left: 80px;
+padding-right: 80px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.header-nav{
+    width: 530px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    color: #242E52 ;
+    position: relative;
+    cursor: pointer;
+}
+#community{
+    color: rgba(36, 46, 82, 0.6);
+
+}
+
+#pointer{
+    color: black;
+    justify-content: center;
+    position: relative;
+    right: 85px;
+    top: 20px;
+}
+.started{
+    width: 134px;
+    height: 44px;
+    background-color: #8B48BF;
+    border-radius: 50px;
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-weight: 500;
+    font-size: 13.1806px;
+}
+.started:hover{
+    font-size: 18px;
+    height: 55px;
+    width: 170px;
+}
+.primero{
+    position: absolute;
+    max-width: 1129px;
+    height: 525px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.frase{
+    position: absolute;
+    top: 35px;
+    left: 165px;
+    width: 439px;
+    height: 386px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 0px;
+}
+h1{
+    width: 439px;
+    height: 198px;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 66px;
+    color: #242E52;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.035em;
+    margin-bottom: 2px;
+}
+#p1{
+    width: 300px;
+    height: 71px;
+    font-weight: 500;
+    font-size: 16.56px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 2px;
+
+}
+.started2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 2px;
+
+    width: 134px;
+    height: 44px;
+    background: #8B48BF;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+.grafico{
+    position: absolute;
+    left: 714px;
+    right: 146px;
+    width: 580px;
+    height: 525px;
+}
+.segundo{
+    position: absolute;
+    width: 1111px;
+    height: 549px;
+    left: 165px;
+    top: 820px;
+
+}
